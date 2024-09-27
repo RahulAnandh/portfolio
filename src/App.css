@@ -1,0 +1,36 @@
+.back_ground {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.my_image {
+  width: 45%;
+  height: 100vh;
+}
+.content {
+  width: 50%;
+  background-color: #000;
+  color: aliceblue;
+}
+.text_introduction {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  padding-top: 30%;
+}
+.text_job {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.social_meadia {
+  display: flex;
+}
+.social_meadia_icon {
+  width: 25%;
+  font-size: 40px;
+  animation: mymove 5s infinite;
+}
+.social_meadia_icon:hover {
+  width: 25%;
+  font-size: 44px;
+}
