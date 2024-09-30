@@ -1,7 +1,13 @@
-import MyImage from "./assets/my_image.png";
+import MyImage from "./assets/my_image.jpg";
 import "./App.css";
 import WordFlickComponent from "./components/WordFlickComponent";
-import { LinkedinOutlined, GithubOutlined } from "@ant-design/icons";
+import {
+  LinkedinOutlined,
+  GithubOutlined,
+  WhatsAppOutlined,
+  InstagramOutlined,
+  ArrowRightOutlined,
+} from "@ant-design/icons";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -19,8 +25,21 @@ function App() {
           <div className="social_meadia_icon">
             <GithubOutlined />
           </div>
-          <div className="social_meadia_icon"> 1</div>
-          <div className="social_meadia_icon"> 1</div>
+          <div className="social_meadia_icon">
+            <div className="social_meadia_icon">
+              <WhatsAppOutlined />
+            </div>
+          </div>
+          <div className="social_meadia_icon">
+            <div className="social_meadia_icon">
+              <InstagramOutlined />
+            </div>
+          </div>
+        </div>
+        <div className="contact_me_button">
+          <div>
+            Contact Me <ArrowRightOutlined />
+          </div>
         </div>
       </div>
     </div>
