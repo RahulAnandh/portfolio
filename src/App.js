@@ -1,6 +1,5 @@
 import MyImage from "./assets/my_image.jpg";
 import "./App.css";
-import WordFlickComponent from "./components/WordFlickComponent";
 import {
   LinkedinOutlined,
   GithubOutlined,
@@ -15,9 +14,8 @@ function App() {
     <div className="back_ground">
       <img src={MyImage} className="my_image" alt="my_image"></img>
       <div className="content">
-        {/* <div className="text_introduction"> I'm Rahul Anandh,</div> */}
-        <WordFlickComponent />
-        <div className="text_job"> a Web Developer</div>
+        <div className="text_name">Hi, I'm Rahul Anandh</div>
+        <div className="text_job"> React.JS Developer</div>
         <div className="social_meadia">
           <div className="social_meadia_icon">
             <LinkedinOutlined />
