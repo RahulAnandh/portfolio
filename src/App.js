@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 function App() {
   return (
     <div className="back_ground">
-      <img src={MyImage} className="my_image"></img>
+      <img src={MyImage} className="my_image" alt="my_image"></img>
       <div className="content">
         {/* <div className="text_introduction"> I'm Rahul Anandh,</div> */}
         <WordFlickComponent />
@@ -23,7 +23,9 @@ function App() {
             <LinkedinOutlined />
           </div>
           <div className="social_meadia_icon">
-            <GithubOutlined />
+            <a href="https://github.com/RahulAnandh">
+              <GithubOutlined />
+            </a>
           </div>
           <div className="social_meadia_icon">
             <div className="social_meadia_icon">
@@ -32,7 +34,9 @@ function App() {
           </div>
           <div className="social_meadia_icon">
             <div className="social_meadia_icon">
-              <InstagramOutlined />
+              <a href="https://www.instagram.com/rahul_anandh_80/">
+                <InstagramOutlined />
+              </a>
             </div>
           </div>
         </div>
